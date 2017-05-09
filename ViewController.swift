@@ -25,11 +25,19 @@ struct Section {
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
        override func viewDidLoad() {
         super.viewDidLoad()
+           
+           // enter the data as shown below 
+           
+        sections = [
+            Section(name: "Cleaing", items: ["Car cleanig", "House cleaning"]),
+            Section(name: "Constraction", items: ["Mesonary", "carpentry", "Painting", "Polishing", "Electrical"])
+            
+        ]
+           
+           // sample
 
    }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
- 
-  }
+  
     
 }
 extension ViewController {
