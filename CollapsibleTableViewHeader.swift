@@ -1,5 +1,5 @@
 //
-//  Utilities.swift
+//  CollapsibleTableViewHeader.swift
 //  Utilities Swift
 //
 //  Created by Don Paul on 06/03/16.
