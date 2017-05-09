@@ -1,0 +1,2 @@
+# collapsible
+Collapsible table view
